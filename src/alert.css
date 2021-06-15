@@ -1,0 +1,123 @@
+
+.float{
+	position: absolute;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#alertContainer{
+	position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fAfAfA;
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+}
+
+#alertDisplay{
+	float: left;
+	min-width: 500px;
+	height: 500px;
+	padding: 25px;
+}
+
+#alertBg{
+	border-radius: 6px;
+	top: 0px;
+	left: 0px;
+	opacity:1;
+	width: 450px;
+	height: 450px;
+}
+
+#c{
+	top: 0px;
+	left: 0px;
+}
+
+#altert{
+	display: block;
+	width: 450px;
+	text-align: center;
+	justify-content: center;
+	height: 450px;
+}
+
+#top{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	width: 450px;
+	height: 75px;
+	margin:0px;
+	padding-top: 5px;
+
+}
+#bottom{
+	padding-top: 25px;
+	text-align: center;
+	justify-content: center;
+	width: 450px;
+	height: 75px;
+}
+#gif{
+	display: flex;
+	justify-content: center;
+	width: 450px;
+	height: 300px;
+	opacity: 0;
+}
+
+.varText h1{
+	font-family: "Arial Black", Gadget, sans-serif;
+	-webkit-text-stroke: .5px black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	font-size: 36px;
+}
+.varText {
+	padding: 5px;
+	color: red;
+}
+.staticText{
+	padding: 5px;
+	color: white;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  80% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+h1 span{
+	display: inline-block;
+	position: relative;
+	bottom: 0;
+	opacity: 0;
+}
+
+@keyframes text-wave {
+	0% {
+		bottom: 0px;
+	}
+	50% {
+		bottom: 10px;
+	}
+	100% {
+		bottom: 0px;
+	}
+}
+
+@keyframes pop-in{
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
